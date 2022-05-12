@@ -4,11 +4,16 @@
   "description": "my first launch app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "./node_modules/.bin/jest"
   },
   "author": "AramisRamirezzzzz",
   "license": "ISC",
   "devDependencies": {
     "jest": "^28.1.0"
   }
+
+
+
+
 }
